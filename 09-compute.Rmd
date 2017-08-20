@@ -7,11 +7,20 @@ This is due to the _What you see is what you compute_ paradigm. The following st
 
 * Go to the **Public tab** and select  the ``PCA`` operator, click **OK**
 
+![](images/first_data_step_pca.png)
+
 * Click on the save icon of the Data step page bar
 The save icon (see red circle in figure below) will disappear once it is saved 
-![](images/save_data_step.png)
+![](images/bar_before_saving.png)
 
 * Go to the workflow page
 
+* Right click on the data step and select **Rename**
+
+Rename it to "PCA" 
+
+![](images/first_data_step_rename_pca.png)
+
 * Right click on the data step and select **Run**
 The the data step status color will now go from blue to red (i.e in progress). Wait until the status goes to green (i.e completed).
+

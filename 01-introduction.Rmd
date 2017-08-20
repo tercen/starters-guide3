@@ -6,7 +6,7 @@ it uses an example data set of morphological  _measurements_ on _Leptograpsus Cr
 <center>![](images/tercen-guide.png)</center>
 
 * Why read this guide
-The easiest path to knowling the basics of Tercen.
+The easiest path to knowing the basics of Tercen.
 
 * Acknowledgement
 I would like to thank all the users of Tercen and also those who have given feedback, all of which made Tercen possible.

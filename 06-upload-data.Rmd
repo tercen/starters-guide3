@@ -8,7 +8,7 @@ _TercenCloud_ accepts data in either _.tsv_ or _csv_. These data set ``crabs_lon
 
 You may already have a personal project area, in which case go this project.
 
-![](images/project_home.png)
+![](images/my_playground.png)
 
   
 * Click on **Create a data set**
@@ -52,3 +52,5 @@ You see what column headers were detected and their associated type.
 
 * Click **OK**
 You will now see the new data set in the _project page_.
+
+![](images/my_playground_crabsdata.png)

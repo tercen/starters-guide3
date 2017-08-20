@@ -3,3 +3,4 @@ You require to create an account on Tercen.
 
 Please sign up on the main Tercen website http://www.tercen.com
 
+![](images/tercen_home.png)
