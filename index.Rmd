@@ -1,0 +1,18 @@
+---
+title: "Starters guide to Tercen"
+author: "Faris Naji, Alexandre Maurel"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: 
+biblio-style: apalike
+link-citations: yes
+github-repo: tercen/starters-guide
+description: "This is a starters guide to Tercen"
+---
+
+
+
+
+

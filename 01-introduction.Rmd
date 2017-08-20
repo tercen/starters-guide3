@@ -1,0 +1,20 @@
+# Introduction
+
+This step-by-step guide outlines how to upload, view, compute and share data using TercenCloud.
+it uses an example data set of morphological  _measurements_ on _Leptograpsus Crabs_ collected at Fremantle, W. Australia.
+
+<center>![](images/tercen-guide.png)</center>
+
+* Why read this guide
+The easiest path to knowling the basics of Tercen.
+
+* Acknowledgement
+I would like to thank all the users of Tercen and also those who have given feedback, all of which made Tercen possible.
+
+* Motivation  
+_Tercen_  promotes collaboration for data analysis. Not everyone can code or even wants to,  but everyone should benefit from the explosion of data and code currently taking place.
+_Tercen_ allows non programmers (e.g. biologists) to explore their data and allows programmers (e.g. bioinformaticians) to upload their code (or web-apps) for the biologist to use. By offering this services we believe biologist get empowered and can claim back control of their data. The bioinformatician gets liberated from the operational details and  day to day analysis demands from the biologist. This is summed up with the phrase:
+
+> _Tercen_ __empowers__ the biologist and __liberates__ the bioinformatician.
+
+<center>![](images/stairs.png)</center>

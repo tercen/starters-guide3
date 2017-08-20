@@ -1,0 +1,18 @@
+# Get the data
+The data set for this guide is available online as a git hub repository. It is found at https://github.com/tercen/getting_started/tree/master/crabs/data and download it to your local drive.
+
+
+
+__Crab data description:__
+
+The dataset is called "crabs" and it is in a _long format_. It has a total of 1000 measurements of crab physical traits. It is composed of four groups (two sexes and two species) of 50 measurements for five traits variables, ``FL`` (frontal lobe size in mm), ``RW`` (rear width mm), ``CL`` (carapace length mm), ``CW`` (carapace width mm) and ``BD`` (body depth mm). In summary it is:  
+
+Factor|values
+------|---
+``sp`` |species, ``B`` or ``O`` for <span style="color:blue">Blue</span> or <span style="color:orange">Orange</span>.
+``sex``|``M`` or ``F``
+``index``|index 1 to 50 within each of the four groups, 2 sex and 2 species
+``variable``|one of five variables: ``FL``, ``RW``, ``CL``, ``CW`` and ``BD``
+``measurement``| the value of one of the five ``variable``
+
+<center>![](images/crabs_data.png)</center>
