@@ -13,11 +13,10 @@ A dialog window opens which allows you to select the data file.
 
 ![](images/create_workflow.png)
 
-* Please fill in the **Name** with the name ``crab workflow`` 
-The following information is possible:
-* Name (Mandatory)
-* Description (Optional)
-* Wiki Link (Optional)
+* Please fill in the **Name** with the name ``crab workflow``, the following information is possible:
+    + Name (Mandatory)
+    + Description (Optional)
+    + Wiki Link (Optional)
 
 
 * Click **Next** and then click **OK**
@@ -25,7 +24,7 @@ You will now have an empty _workflow page_ titled ``Crab workflow`` you gave it.
 
 * Right click in the _workflow page_  and select **Add step**
 
-![](images/add_table.png)
+![](images/add_table_step.png)
 
 * Select **Table** and click **OK**
 A new step named Table should appear on your _worklow page_.
