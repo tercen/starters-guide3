@@ -5,7 +5,6 @@ Once you have imported your data into the workflow now you can configure a __pro
 * Right click on the Table step and select **Add step**
 
 * Select **Data step** and click **OK**.
-
 Your workflow should look like:
 ![](images/workflow_table_ran.png)
 

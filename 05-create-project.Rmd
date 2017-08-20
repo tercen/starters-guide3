@@ -1,12 +1,21 @@
 # Create a project
 
+* On the home page (once logged in) click on the **Create project**
 ![](images/home_project.png)
 
 
-
+* Enter "my playground" in the **Name** and click **OK**
 ![](images/create_project.png)
 
-
-
-
+* You see an entry entitled "my playground" on the top bar.
+You have created a project
 ![](images/my_playground.png)
+
+
+When in the project, notice the new entries on the left:
+
+* Create a data set
+* Create workflow
+* Create operator
+
+The guide fill cover these in later chatpers.

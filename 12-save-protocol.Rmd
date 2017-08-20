@@ -1,0 +1,11 @@
+# Saving your work
+In order to save all the work you did you require to click on the icons (see red circles in figure below) found on the top bar.
+
+![](images/saving_bar.png)
+
+
+Once clicked then the icons dissappear
+
+![](images/all_saved.png)
+
+It is advised to save before sharing (see next section).

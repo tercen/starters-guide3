@@ -10,7 +10,8 @@ This is due to the _What you see is what you compute_ paradigm. The following st
 ![](images/first_data_step_pca.png)
 
 * Click on the save icon of the Data step page bar
-The save icon (see red circle in figure below) will disappear once it is saved 
+The save icon (see red circle in figure below) will disappear once it is saved
+
 ![](images/bar_before_saving.png)
 
 * Go to the workflow page

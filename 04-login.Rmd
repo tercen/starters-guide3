@@ -1,3 +1,5 @@
 # Login
+Once you have an account please go to the main login window.
+
 
 ![](images/tercen_login.png)

@@ -4,9 +4,9 @@ In this section you upload an example data set.
 _TercenCloud_ accepts data in either _.tsv_ or _csv_. These data set ``crabs_longformat.csv`` is in a _.csv_ and is in a _long format_.
 
 
-*Go to the _project page_ by clicking on the ``public`` project
+* Go to the _project page_ by clicking on the ``my playground`` project
 
-You may already have a personal project area, in which case go this project.
+You may already have a personal project area created, in which case go this project.
 
 ![](images/my_playground.png)
 
@@ -51,6 +51,7 @@ Leave the default..
 You see what column headers were detected and their associated type.
 
 * Click **OK**
+
 You will now see the new data set in the _project page_.
 
 ![](images/my_playground_crabsdata.png)
