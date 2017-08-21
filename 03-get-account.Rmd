@@ -1,5 +1,5 @@
 # Get an account
-You require to create an account on Tercen.
+You require to create an account on Tercen, this is done by invitation.
 
 * Go to the Tercen website http://www.tercen.com 
 
@@ -7,13 +7,14 @@ You require to create an account on Tercen.
 
 ![](images/tercen_home.png)
 
+An e-mail will be sent to you. Note,if you do not see an invitation e-mail, check your e-mail spam folder
 
-* Check your e-mail for an invitation and open it.
-Please accept the invitation by clicking on the **Accept invitation** button in email. Note: if you do not see an invitation e-mail, check your e-mail spam folder.
+* Check your e-mail for an invitation and open it. 
 
+* Accept the invitation by clicking on the **Accept invitation** button in email.
 ![](images/accept_invitation.png)
 
-A sign up window will appear. 
+Once clicked,  a sign up window will appear. 
 
 ![](images/sign_in_first.png)
 

@@ -1,5 +1,5 @@
 # Saving your work
-In order to save all the work you did you require to click on the icons (see red circles in figure below) found on the top bar.
+In order to save your work go to the top bar and click on the icons (see red circles in figure below).
 
 ![](images/saving_bar.png)
 
