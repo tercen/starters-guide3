@@ -1,1 +1,29 @@
 # Create an operator
+
+In the project page you can create an operator.
+
+![](images/project_create_operator.png)
+
+* Click on **Create an operator**
+
+![](images/create_op.png)
+
+* Fill in the name and click **Next**
+
+![](images/create_op_name.png)
+
+* Select **R** and click **Next**
+
+![](images/create_op_r.png)
+
+* Click **OK**
+The default code is a mean operator.
+
+![](images/warning.png)
+
+<span style="color:red">The operator takes a couple of minutes to appear in your project area.</span>
+
+After a couple of minutes you will see the operator in your project.
+
+![](images/project_with_op.png)
+
