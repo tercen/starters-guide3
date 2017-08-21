@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-
-<link rel="next" href="get-the-data.html">
+<link rel="prev" href="create-an-operator.html">
+<link rel="next" href="run-operator-locally.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -96,28 +96,25 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Starter’s guide to Tercen</h1>
-<h4 class="author"><em>Faris Naji, Alexandre Maurel</em></h4>
-</div>
-<div id="introduction" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
-<p>This step-by-step guide outlines how to upload, view, compute and share data using TercenCloud. it uses an example data set of morphological <em>measurements</em> on <em>Leptograpsus Crabs</em> collected at Fremantle, W. Australia.</p>
-<center>
-<img src="images/tercen-guide.png" />
-</center>
+<div id="run-operator" class="section level1">
+<h1><span class="header-section-number">Chapter 15</span> Run operator</h1>
 <ul>
-<li><p>Why read this guide The easiest path to knowing the basics of Tercen.</p></li>
-<li><p>Acknowledgement I would like to thank all the users of Tercen and also those who have given feedback, all of which made Tercen possible.</p></li>
-<li><p>Motivation<br />
-<em>Tercen</em> promotes collaboration for data analysis. Not everyone can code or even wants to, but everyone should benefit from the explosion of data and code currently taking place. <em>Tercen</em> allows non programmers (e.g. biologists) to explore their data and allows programmers (e.g. bioinformaticians) to upload their code (or web-apps) for the biologist to use. By offering this services we believe biologist get empowered and can claim back control of their data. The bioinformatician gets liberated from the operational details and day to day analysis demands from the biologist. This is summed up with the phrase:</p></li>
+<li><p>Open the <code>crab workflow</code></p></li>
+<li><p>Right click on the data step <code>Crab data</code></p></li>
+<li><p>Select <strong>Add step</strong> and select <strong>Data step</strong></p></li>
+<li><p>Right click on the new data step and select <strong>Rename</strong> and rename it to “mean”</p></li>
+<li><p>Double click on the new “mean” step</p></li>
+<li><p>Drag-n-drop the factor <code>measurement</code> to the y-axis zone</p></li>
+<li><p>Drag-n-drop the factor <code>sp</code> and <code>sex</code> to the column zone</p></li>
+<li><p>Click on <strong>Operator</strong> tab</p></li>
+<li><p>Click on the <code>+</code> button</p></li>
+<li><p>Add the <code>my operator</code> operator</p></li>
+<li><p>Save the <code>mean</code> data step</p></li>
+<li><p>Go to <code>crab workflow</code> page</p></li>
+<li><p>Right click on the <code>mean</code> data step and select <strong>Run</strong></p></li>
+<li><p>Right click on the data step named “mean” and <strong>Add step</strong> and select <strong>Data step</strong></p></li>
+<li><p>Right click on the new data step and select <strong>Rename</strong>, rename to “mean results”</p></li>
 </ul>
-<blockquote>
-<p><em>Tercen</em> <strong>empowers</strong> the biologist and <strong>liberates</strong> the bioinformatician.</p>
-</blockquote>
-<center>
-<img src="images/stairs.png" />
-</center>
 
 </div>
             </section>
@@ -125,8 +122,8 @@
           </div>
         </div>
       </div>
-
-<a href="get-the-data.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="create-an-operator.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="run-operator-locally.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

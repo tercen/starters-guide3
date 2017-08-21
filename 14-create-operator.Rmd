@@ -19,6 +19,8 @@ In the project page you can create an operator.
 * Click **OK**
 The default code is a mean operator.
 
+![](images/create_op_code.png)
+
 The operator appears in your project area.
 
 ![](images/project_with_op.png)

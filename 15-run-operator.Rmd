@@ -1,0 +1,31 @@
+# Run operator
+
+* Open the ``crab workflow`` 
+
+* Right click on the data step ``Crab data``
+
+* Select **Add step** and select **Data step**
+
+* Right click on the new data step and select **Rename** and rename it to "mean"
+
+* Double click on the new "mean" step
+
+* Drag-n-drop the factor ``measurement`` to the y-axis zone
+
+* Drag-n-drop the factor ``sp`` and ``sex`` to the column zone 
+
+* Click on **Operator** tab 
+
+* Click on the ``+`` button
+
+* Add the ``my operator`` operator
+
+* Save the ``mean`` data step 
+
+* Go to ``crab workflow`` page
+
+* Right click on the ``mean`` data step and select **Run**
+
+* Right click on the data step named "mean" and **Add step** and select **Data step**
+
+* Right click on the new data  step and select **Rename**, rename to "mean results"
