@@ -17,4 +17,4 @@ You have created a project
     + **Create workflow**
     + **Create operator**
 
-The guide fill cover these in later chatpers.
+The guide fill cover these in later chapters.

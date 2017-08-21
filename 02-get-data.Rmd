@@ -1,7 +1,7 @@
 # Get the data
-The data set for this guide is available online as a github repository. 
+The data set for this guide is available online as a git hub repository. 
 
-* Go the file at the github address https://raw.githubusercontent.com/tercen/getting_started/master/crabs/data/crabs_longformat.csv
+* Go the file at the git hub address https://raw.githubusercontent.com/tercen/getting_started/master/crabs/data/crabs_longformat.csv
 
 * Click right and select **Save as...**
 
@@ -10,7 +10,7 @@ Save your data on your desktop. Use the default name.
 
 __Crab data description:__
 
-The dataset is called "crabs" and it is in a _long format_. It has a total of 1000 measurements of crab physical traits. It is composed of four groups (two sexes and two species) of 50 measurements for five traits variables, ``FL`` (frontal lobe size in mm), ``RW`` (rear width mm), ``CL`` (carapace length mm), ``CW`` (carapace width mm) and ``BD`` (body depth mm). In summary it is:  
+The data set is called "crabs" and it is in a _long format_. It has a total of 1000 measurements of crab physical traits. It is composed of four groups (two sexes and two species) of 50 measurements for five traits variables, ``FL`` (frontal lobe size in mm), ``RW`` (rear width mm), ``CL`` (carapace length mm), ``CW`` (carapace width mm) and ``BD`` (body depth mm). In summary it is:  
 
 Factor|values
 ------|---
