@@ -5,6 +5,8 @@ This is due to the _What you see is what you compute_ paradigm. The following st
 
 * Click on the **Operator** tab
 
+* Click on the ``+`` button
+
 * Go to the **Public tab** and select  the ``PCA`` operator, click **OK**
 
 ![](images/first_data_step_pca.png)

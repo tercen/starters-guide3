@@ -2,14 +2,14 @@
 
 You will notice the each _data step_ (and hence visual) has its own unique URL and each _workflow_ has its own unique URL.
  
- https://tercen.com/core/#w/fa51aae551f7c3d14727ab5fd9b65433
+ https://tercen.com/core/#w/505422ee4738683eca172a07e25d8c45
 
 This URL is for the crabs workflow found in the ``public`` project.
  
 * Copy the url of the view with the multi-group plot
 You can send this URL to another person by email or via a chat session.
 
- https://tercen.com/core/#ds/fa51aae551f7c3d14727ab5fd9b65433/2efff9f0-0f80-11e7-8de2-9fe5ab3cbd24
+ https://tercen.com/core/#ds/505422ee4738683eca172a07e25d8c45/a3828650-84b0-11e7-995a-d5fd76e2d58a
 
 
 This URL is for the multi-group pairwise found in the workflow in the ``public`` project.
