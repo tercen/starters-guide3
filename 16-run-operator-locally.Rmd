@@ -4,16 +4,26 @@ Here is an example for the R ``mean`` operator shown previously but this time it
 * Go to the ``crabs workflow``
 * Right click on the "mean" data step and select **Reset**
 
-The step should go red.
+The step should go eventually <span style="color:blue">__blue__</span>.
+
+![](images/workflow_mean_reset.png)
 
 * Go to the ``mean`` data step (if its not open already then double click on the ``mean`` data step)
-* Copy the url and identify the workflowId and stepId.
 
-The url structure is https://tercen.com/core/index.html#ds/{workflowId}/{stepId}
+![](images/mean_step_url.png)
 
-where workflowId and stepId is a hexadecimal number(with hypens).
+* Copy the URL and identify the workflowId and stepId.
 
-An example is the following:
+The URL structure is https://tercen.com/core/index.html#ds/{workflowId}/{stepId}
+
+where workflowId and stepId is a hexadecimal number(with hyphens).
+
+An illustrative example (see figure above) is given:
+``https://tercen.com/core/#ds/17e8d105a6da4ee5e576f271c53a91ff/d5ed0600-84b0-11e7-f956-43d96268b27b``
+
+In the above URL, workflowId = ``17e8d105a6da4ee5e576f271c53a91ff`` and stepId = ``d5ed0600-84b0-11e7-f956-43d96268b27b``.
+
+Your URL will be different and therefore so will the workflowId and stepId. Please identify these two identifiers in your actual URL.
 
 * Install rtercen package
 
@@ -21,13 +31,13 @@ An example is the following:
 devtools::install_github("tercen/rtercen", ref = "2.10")
 ```
 
-* Load the appriopiate libraries
+* Load the appropriate libraries
 ```
 library(rtercen)
 library(plyr)
 ```
 
-* Replace the long string of Xs (length 32) and the long string of Ys (length 36) indicated below with the actual workflowId and stepId values.
+* Replace the long string of Xs (length 32) and the long string of Ys (length 36) indicated below with the actual workflowId and stepId values you identified previously.
 
 ```
 workflowId = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
@@ -67,7 +77,12 @@ query$setResult(computed.df)
 
 The ``mean`` data step should now be green. Even though the execution has taken place locally on your computer.
 
+![](images/workflow_mean.png)
+
 * Open the ``mean results`` data step and check the results. It should be the same results view as when the operator was run on before on the Tercen server.
+
+![](images/mean_results.png)
+
 
 
 More documentation can be found at https://github.com/tercen/rtercen

@@ -20,14 +20,33 @@
 
 * Add the ``my operator`` operator
 
+![](images/mean_step.png)
+
 * Save the ``mean`` data step 
 
 * Go to ``crab workflow`` page
 
+![](images/workflow_mean_only.png)
+
 * Right click on the ``mean`` data step and select **Run**
 
-The ``mean`` data step should go from red to green.
+The ``mean`` data step should go from blue to green.
 
 * Right click on the data step named "mean" and **Add step** and select **Data step**
 
 * Right click on the new data  step and select **Rename**, rename to "mean results"
+
+![](images/workflow_mean.png)
+
+* Open the new ``mean results`` data step
+
+* Drag-n-drop ``ns1.mean`` to the y-axis zone
+
+* Drag-n-drop ``sp`` and ``sex`` to the color zone
+
+* Select ``bar`` in the drop down menu where it currently is ``point``
+
+![](images/mean_results.png)
+
+
+You have now completed the creation of your own operator. This operator was run on Tercen. In the next Chapter you will run the same operator locally.

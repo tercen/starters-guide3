@@ -104,23 +104,35 @@
 <li>Go to the <code>crabs workflow</code></li>
 <li>Right click on the “mean” data step and select <strong>Reset</strong></li>
 </ul>
-<p>The step should go red.</p>
+<p>The step should go eventually <span style="color:blue"><strong>blue</strong></span>.</p>
+<div class="figure">
+<img src="images/workflow_mean_reset.png" />
+
+</div>
 <ul>
 <li>Go to the <code>mean</code> data step (if its not open already then double click on the <code>mean</code> data step)</li>
-<li>Copy the url and identify the workflowId and stepId.</li>
 </ul>
-<p>The url structure is <a href="https://tercen.com/core/index.html#ds/%7BworkflowId%7D/%7BstepId%7D" class="uri">https://tercen.com/core/index.html#ds/{workflowId}/{stepId}</a></p>
-<p>where workflowId and stepId is a hexadecimal number(with hypens).</p>
-<p>An example is the following:</p>
+<div class="figure">
+<img src="images/mean_step_url.png" />
+
+</div>
+<ul>
+<li>Copy the URL and identify the workflowId and stepId.</li>
+</ul>
+<p>The URL structure is <a href="https://tercen.com/core/index.html#ds/%7BworkflowId%7D/%7BstepId%7D" class="uri">https://tercen.com/core/index.html#ds/{workflowId}/{stepId}</a></p>
+<p>where workflowId and stepId is a hexadecimal number(with hyphens).</p>
+<p>An illustrative example (see figure above) is given: <code>https://tercen.com/core/#ds/17e8d105a6da4ee5e576f271c53a91ff/d5ed0600-84b0-11e7-f956-43d96268b27b</code></p>
+<p>In the above URL, workflowId = <code>17e8d105a6da4ee5e576f271c53a91ff</code> and stepId = <code>d5ed0600-84b0-11e7-f956-43d96268b27b</code>.</p>
+<p>Your URL will be different and therefore so will the workflowId and stepId. Please identify these two identifiers in your actual URL.</p>
 <ul>
 <li>Install rtercen package</li>
 </ul>
 <pre><code>devtools::install_github(&quot;tercen/rtercen&quot;, ref = &quot;2.10&quot;)</code></pre>
 <ul>
-<li><p>Load the appriopiate libraries</p>
+<li><p>Load the appropriate libraries</p>
 <pre><code>library(rtercen)
 library(plyr)</code></pre></li>
-<li><p>Replace the long string of Xs (length 32) and the long string of Ys (length 36) indicated below with the actual workflowId and stepId values.</p></li>
+<li><p>Replace the long string of Xs (length 32) and the long string of Ys (length 36) indicated below with the actual workflowId and stepId values you identified previously.</p></li>
 </ul>
 <pre><code>workflowId = &quot;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&quot;
 stepId = &quot;YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY&quot;</code></pre>
@@ -145,9 +157,17 @@ stepId = &quot;YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY&quot;</code></pre>
 <li><p>Go to the <code>crabs workflow</code> and refresh the page</p></li>
 </ul>
 <p>The <code>mean</code> data step should now be green. Even though the execution has taken place locally on your computer.</p>
+<div class="figure">
+<img src="images/workflow_mean.png" />
+
+</div>
 <ul>
 <li>Open the <code>mean results</code> data step and check the results. It should be the same results view as when the operator was run on before on the Tercen server.</li>
 </ul>
+<div class="figure">
+<img src="images/mean_results.png" />
+
+</div>
 <p>More documentation can be found at <a href="https://github.com/tercen/rtercen" class="uri">https://github.com/tercen/rtercen</a></p>
 
 </div>

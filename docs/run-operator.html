@@ -110,15 +110,42 @@
 <li><p>Click on <strong>Operator</strong> tab</p></li>
 <li><p>Click on the <code>+</code> button</p></li>
 <li><p>Add the <code>my operator</code> operator</p></li>
+</ul>
+<div class="figure">
+<img src="images/mean_step.png" />
+
+</div>
+<ul>
 <li><p>Save the <code>mean</code> data step</p></li>
 <li><p>Go to <code>crab workflow</code> page</p></li>
-<li><p>Right click on the <code>mean</code> data step and select <strong>Run</strong></p></li>
 </ul>
-<p>The <code>mean</code> data step should go from red to green.</p>
+<div class="figure">
+<img src="images/workflow_mean_only.png" />
+
+</div>
+<ul>
+<li>Right click on the <code>mean</code> data step and select <strong>Run</strong></li>
+</ul>
+<p>The <code>mean</code> data step should go from blue to green.</p>
 <ul>
 <li><p>Right click on the data step named “mean” and <strong>Add step</strong> and select <strong>Data step</strong></p></li>
 <li><p>Right click on the new data step and select <strong>Rename</strong>, rename to “mean results”</p></li>
 </ul>
+<div class="figure">
+<img src="images/workflow_mean.png" />
+
+</div>
+<ul>
+<li><p>Open the new <code>mean results</code> data step</p></li>
+<li><p>Drag-n-drop <code>ns1.mean</code> to the y-axis zone</p></li>
+<li><p>Drag-n-drop <code>sp</code> and <code>sex</code> to the color zone</p></li>
+<li><p>Select <code>bar</code> in the drop down menu where it currently is <code>point</code></p></li>
+</ul>
+<div class="figure">
+<img src="images/mean_results.png" />
+
+</div>
+<p>You have now completed the creation of your own operator. This operator was run on Tercen. In the next Chapter you will run the same operator locally.</p>
 
 </div>
             </section>
