@@ -44,4 +44,4 @@ Select the crab data set you have uploaded.
 The Table step should now be green.
 
 
-You have now successfully imported you data sets into the workflow.
+You have now successfully imported the crabs data set into the workflow.

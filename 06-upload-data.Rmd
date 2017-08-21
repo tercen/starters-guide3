@@ -29,7 +29,7 @@ Selecting the separator requires you to select one of three options:
 * Semicolon
 * Tab
 
-Please select **Comma** for this dataset.
+Please select **Comma** for this data set.
 
 Selecting the encoding requires you to select one of two options:
 
