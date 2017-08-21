@@ -26,6 +26,8 @@
 
 * Right click on the ``mean`` data step and select **Run**
 
+The ``mean`` data step should go from red to green.
+
 * Right click on the data step named "mean" and **Add step** and select **Data step**
 
 * Right click on the new data  step and select **Rename**, rename to "mean results"

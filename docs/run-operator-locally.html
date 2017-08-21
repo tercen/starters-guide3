@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="run-operator.html">
-<link rel="next" href="next-steps.html">
+<link rel="next" href="known-issues.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -77,8 +77,9 @@
 <li class="chapter" data-level="14" data-path="create-an-operator.html"><a href="create-an-operator.html"><i class="fa fa-check"></i><b>14</b> Create an operator</a></li>
 <li class="chapter" data-level="15" data-path="run-operator.html"><a href="run-operator.html"><i class="fa fa-check"></i><b>15</b> Run operator</a></li>
 <li class="chapter" data-level="16" data-path="run-operator-locally.html"><a href="run-operator-locally.html"><i class="fa fa-check"></i><b>16</b> Run operator locally</a></li>
-<li class="chapter" data-level="17" data-path="next-steps.html"><a href="next-steps.html"><i class="fa fa-check"></i><b>17</b> Next steps</a></li>
-<li class="chapter" data-level="18" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>18</b> Glossary</a></li>
+<li class="chapter" data-level="17" data-path="known-issues.html"><a href="known-issues.html"><i class="fa fa-check"></i><b>17</b> Known issues</a></li>
+<li class="chapter" data-level="18" data-path="next-steps.html"><a href="next-steps.html"><i class="fa fa-check"></i><b>18</b> Next steps</a></li>
+<li class="chapter" data-level="19" data-path="glossary.html"><a href="glossary.html"><i class="fa fa-check"></i><b>19</b> Glossary</a></li>
 </ul>
 
       </nav>
@@ -98,48 +99,56 @@
             <section class="normal" id="section-">
 <div id="run-operator-locally" class="section level1">
 <h1><span class="header-section-number">Chapter 16</span> Run operator locally</h1>
-<p><a href="https://github.com/tercen/rtercen" class="uri">https://github.com/tercen/rtercen</a></p>
+<p>Here is an example for the R <code>mean</code> operator shown previously but this time it is executed locally from your favorite development environment. This example is a brief introduction on creating operators locally.</p>
 <ul>
-<li><p>Install rtercen package</p>
-<pre><code>devtools::install_github(&quot;tercen/rtercen&quot;, ref = &quot;2.10&quot;)</code></pre></li>
-<li><p>Optional configuration save the following in <code>.Rprofile</code> file</p></li>
+<li>Go to the <code>crabs workflow</code></li>
+<li>Right click on the “mean” data step and select <strong>Reset</strong></li>
 </ul>
-<pre><code>options(&quot;tercen.username&quot;=&quot;myusername&quot;)
-options(&quot;tercen.password&quot;=&quot;mypassword&quot;)</code></pre>
+<p>The step should go red.</p>
 <ul>
-<li>Running Tercen R operator locally</li>
+<li>Go to the <code>mean</code> data step (if its not open already then double click on the <code>mean</code> data step)</li>
+<li>Copy the url and identify the workflowId and stepId.</li>
 </ul>
-<p>Access tercen.com and upload some data, create a workflow and a data step. Configure your data step, and retreive the workflowId and stepId from the url. Example : <a href="https://tercen.com/core/index.html#ds/%7BworkflowId%7D/%7BstepId%7D" class="uri">https://tercen.com/core/index.html#ds/{workflowId}/{stepId}</a></p>
+<p>The url structure is <a href="https://tercen.com/core/index.html#ds/%7BworkflowId%7D/%7BstepId%7D" class="uri">https://tercen.com/core/index.html#ds/{workflowId}/{stepId}</a></p>
+<p>where workflowId and stepId is a hexadecimal number(with hypens).</p>
+<p>An example is the following:</p>
+<ul>
+<li>Install rtercen package</li>
+</ul>
+<pre><code>devtools::install_github(&quot;tercen/rtercen&quot;, ref = &quot;2.10&quot;)</code></pre>
+<ul>
+<li><p>Load the appriopiate libraries</p>
 <pre><code>library(rtercen)
-library(plyr)
-
-# your Tercen workflowId and stepId
-workflowId=&quot;ec25c9aa533ad9f655c2e5e7c4004460&quot;
-stepId=&quot;47e61df0-4c30-11e6-ad8a-795d6db3b40c&quot;
-
-# create a Tercen client object using your username and password
-# client = TercenClient$new(myusername, mypassword)
-
-# create a Tercen client object using your username and password store in .Rprofile file
-
-# serviceUri points to local vagrant for testing
-# client = TercenClient$new(serviceUri=&quot;https://vagrant.tercen.com/service&quot;)
-# serviceUri points to tercen.com
-client = TercenClient$new()
-
-# get the cube query defined by your workflow
-query = client$getCubeQuery(workflowId, stepId)
+library(plyr)</code></pre></li>
+<li><p>Replace the long string of Xs (length 32) and the long string of Ys (length 36) indicated below with the actual workflowId and stepId values.</p></li>
+</ul>
+<pre><code>workflowId = &quot;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&quot;
+stepId = &quot;YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY&quot;</code></pre>
+<ul>
+<li>Create a Tercen client object using your actual username and password</li>
+</ul>
+<pre><code>client = TercenClient$new(myusername, mypassword)</code></pre>
+<ul>
+<li><p>Get the cube query defined by your workflow</p>
+<pre><code>query = client$getCubeQuery(workflowId, stepId)
 # inspect query as json
-# query$toJson()
-
-# execute the query and get the data
-cube = query$execute()
-
-# execute some computation
-computed.df &lt;- ddply(cube$sourceTable$as.data.frame(), c(&quot;.ids&quot;), summarize, mean = mean(.values))
- 
-# send the result to Tercen
-query$setResult(computed.df)</code></pre>
+# query$toJson()</code></pre></li>
+<li><p>Execute the query and get the data</p>
+<pre><code>cube = query$execute()</code></pre></li>
+<li><p>Get the data as a data frame</p>
+<pre><code>df &lt;- cube$sourceTable$as.data.frame()</code></pre></li>
+<li><p>Execute some computation</p>
+<pre><code>computed.df &lt;- ddply(df, c(&quot;.ids&quot;), summarize, mean = mean(.values))</code></pre>
+<p>In this instance it is a mean operator.</p></li>
+<li><p>Send the result to Tercen</p>
+<pre><code>query$setResult(computed.df)</code></pre></li>
+<li><p>Go to the <code>crabs workflow</code> and refresh the page</p></li>
+</ul>
+<p>The <code>mean</code> data step should now be green. Even though the execution has taken place locally on your computer.</p>
+<ul>
+<li>Open the <code>mean results</code> data step and check the results. It should be the same results view as when the operator was run on before on the Tercen server.</li>
+</ul>
+<p>More documentation can be found at <a href="https://github.com/tercen/rtercen" class="uri">https://github.com/tercen/rtercen</a></p>
 
 </div>
             </section>
@@ -148,7 +157,7 @@ query$setResult(computed.df)</code></pre>
         </div>
       </div>
 <a href="run-operator.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="next-steps.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="known-issues.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

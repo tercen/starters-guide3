@@ -18,11 +18,14 @@ it uses an example data set of morphological  _measurements_ on _Leptograpsus Cr
 
 <center>![](images/tercen-guide.png)</center>
 
-* Why read this guide
-The easiest path to knowing the basics of Tercen.
+* Why read this guide:
+The easiest and quickest path to knowing the basics of Tercen.
 
-* Acknowledgement
+* Acknowledgement:
 I would like to thank all the users of Tercen and also those who have given feedback, all of which made Tercen possible.
+
+* Feedback:
+Please log your feedback by creating an entry in the [issue tracker](https://github.com/tercen/starters-guide/issues)
 
 * Motivation  
 _Tercen_  promotes collaboration for data analysis. Not everyone can code or even wants to,  but everyone should benefit from the explosion of data and code currently taking place.

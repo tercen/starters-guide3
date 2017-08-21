@@ -1,0 +1,7 @@
+# Next steps
+
+* Please try coding for different operators using the ``rtercen`` R package
+* Give feedback on this start's guide by creating an [issue](https://github.com/tercen/starters-guide/issues)
+* Give feedback on Tercen by sending an email to info@tercen.com
+* Contact us for a one-2-one session
+<center>![](images/stairs.png)</center>

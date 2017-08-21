@@ -1,54 +1,73 @@
 # Run operator locally
+Here is an example for the R ``mean`` operator shown previously but this time it is executed locally from your favorite development environment. This example is a brief introduction on creating operators locally.
 
-https://github.com/tercen/rtercen
+* Go to the ``crabs workflow``
+* Right click on the "mean" data step and select **Reset**
 
+The step should go red.
+
+* Go to the ``mean`` data step (if its not open already then double click on the ``mean`` data step)
+* Copy the url and identify the workflowId and stepId.
+
+The url structure is https://tercen.com/core/index.html#ds/{workflowId}/{stepId}
+
+where workflowId and stepId is a hexadecimal number(with hypens).
+
+An example is the following:
 
 * Install rtercen package
+
 ```
 devtools::install_github("tercen/rtercen", ref = "2.10")
 ```
 
-* Optional configuration
-save the following in ``.Rprofile`` file
-
+* Load the appriopiate libraries
 ```
-options("tercen.username"="myusername")
-options("tercen.password"="mypassword")
-```
-
-* Running Tercen R operator locally
-
-Access tercen.com and upload some data, create a workflow and a data step. Configure your data step, and retreive the workflowId and stepId from the url. Example : https://tercen.com/core/index.html#ds/{workflowId}/{stepId}
-
-``` 
 library(rtercen)
 library(plyr)
+```
 
-# your Tercen workflowId and stepId
-workflowId="ec25c9aa533ad9f655c2e5e7c4004460"
-stepId="47e61df0-4c30-11e6-ad8a-795d6db3b40c"
+* Replace the long string of Xs (length 32) and the long string of Ys (length 36) indicated below with the actual workflowId and stepId values.
 
-# create a Tercen client object using your username and password
-# client = TercenClient$new(myusername, mypassword)
+```
+workflowId = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+stepId = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+```
+* Create a Tercen client object using your actual username and password
 
-# create a Tercen client object using your username and password store in .Rprofile file
+```
+client = TercenClient$new(myusername, mypassword)
+```
 
-# serviceUri points to local vagrant for testing
-# client = TercenClient$new(serviceUri="https://vagrant.tercen.com/service")
-# serviceUri points to tercen.com
-client = TercenClient$new()
-
-# get the cube query defined by your workflow
+* Get the cube query defined by your workflow
+```
 query = client$getCubeQuery(workflowId, stepId)
 # inspect query as json
 # query$toJson()
-
-# execute the query and get the data
+```
+* Execute the query and get the data
+```
 cube = query$execute()
+```
+* Get the data as a data frame
+```
+df <- cube$sourceTable$as.data.frame()
+```
+* Execute some computation
+```
+computed.df <- ddply(df, c(".ids"), summarize, mean = mean(.values))
+```
+In this instance it is a mean operator.
 
-# execute some computation
-computed.df <- ddply(cube$sourceTable$as.data.frame(), c(".ids"), summarize, mean = mean(.values))
- 
-# send the result to Tercen
+* Send the result to Tercen
+```
 query$setResult(computed.df)
 ```
+* Go to the ``crabs workflow`` and refresh the page
+
+The ``mean`` data step should now be green. Even though the execution has taken place locally on your computer.
+
+* Open the ``mean results`` data step and check the results. It should be the same results view as when the operator was run on before on the Tercen server.
+
+
+More documentation can be found at https://github.com/tercen/rtercen
