@@ -18,7 +18,7 @@ The save icon (see red circle in figure below) will disappear once it is saved
 
 * Right click on the data step and select **Rename**
 
-Rename it to "PCA" 
+Rename to "PCA" 
 
 ![](images/first_data_step_rename_pca.png)
 
