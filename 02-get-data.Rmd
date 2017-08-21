@@ -1,6 +1,11 @@
 # Get the data
-The data set for this guide is available online as a git hub repository. It is found at https://github.com/tercen/getting_started/tree/master/crabs/data and download it to your local drive.
+The data set for this guide is available online as a github repository. 
 
+* Go the file at the github address https://raw.githubusercontent.com/tercen/getting_started/master/crabs/data/crabs_longformat.csv
+
+* Click right and select **Save as...**
+
+Save your data on your desktop. Use the default name.
 
 
 __Crab data description:__

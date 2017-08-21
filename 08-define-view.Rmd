@@ -8,7 +8,7 @@ Once you have imported your data into the workflow now you can configure a __pro
 Your workflow should look like:
 ![](images/workflow_table_ran.png)
 
-* Double click on the data step
+* Double click on the new data step
 A _projection page_ opens
 
 ![](images/first_data_step.png)

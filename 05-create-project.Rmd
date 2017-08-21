@@ -1,6 +1,6 @@
 # Create a project
 
-* On the home page (once logged in) click on the **Create project**
+* On the home page (once logged in) click on the **Create a project**
 ![](images/home_project.png)
 
 
@@ -12,10 +12,9 @@ You have created a project
 ![](images/my_playground.png)
 
 
-When in the project, notice the new entries on the left:
-
-* Create a data set
-* Create workflow
-* Create operator
+* When in the project, notice the new entries on the left:
+    + **Create a data set**
+    + **Create workflow**
+    + **Create operator**
 
 The guide fill cover these in later chatpers.

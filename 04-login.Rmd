@@ -1,5 +1,5 @@
 # Login
-Once you have an account please go to the main login window.
+Once you have an account please go to the main login window and login.
 
 
 ![](images/tercen_login.png)
