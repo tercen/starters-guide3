@@ -1,5 +1,5 @@
 # Get the data
-In this section you get some example data. This data is used later in the guide.
+In this section you retrieve some example data from the Internet. This data is used later in the guide.
 
 The data set for this guide is available online as a git hub repository. 
 
