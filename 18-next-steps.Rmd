@@ -1,4 +1,5 @@
 # Next steps
+Here are some ideas for next steps:
 
 * Please try coding for different operators using the ``rtercen`` R package
 * Give feedback on this start's guide by creating an [issue](https://github.com/tercen/starters-guide/issues)

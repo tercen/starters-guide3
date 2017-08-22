@@ -1,4 +1,7 @@
 # Get an account
+In this section you create an account on Tercen.
+
+
 You require to create an account on Tercen, this is done by invitation.
 
 * Go to the Tercen website http://www.tercen.com 

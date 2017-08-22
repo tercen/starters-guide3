@@ -1,4 +1,5 @@
 # Share result
+In this section you share your work with other users.
 
 You will notice the each _data step_ (and hence visual) has its own unique URL and each _workflow_ has its own unique URL.
  

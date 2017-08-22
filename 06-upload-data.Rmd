@@ -1,5 +1,5 @@
 # Upload the data
-In this section you upload an example data set.
+In this section you upload to Tercen an example data set you downloaded in a previous section.
 
 _TercenCloud_ accepts data in either _.tsv_ or _csv_. These data set ``crabs_longformat.csv`` is in a _.csv_ and is in a _long format_.
 

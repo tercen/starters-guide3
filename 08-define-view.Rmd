@@ -1,5 +1,7 @@
 # Define a view
-In this section you create a visual.
+In this section you create a visual using projections.
+
+
 Once you have imported your data into the workflow now you can configure a __projection__.
 
 * Right click on the Table step and select **Add step**
@@ -13,7 +15,7 @@ A _projection page_ opens
 
 ![](images/first_data_step.png)
   
-The _projection page_ is composed of different zones. The main zones are highlighted in green below:
+The _projection page_ is composed of different zones. The main zones are indicated in red and the zones are highlighted by green, see image below:
 
 ![](images/data_step_zones.png)
 

@@ -1,4 +1,6 @@
 # Run operator
+In this section you run the operator you created in the previous section.
+
 
 * Open the ``crab workflow`` 
 

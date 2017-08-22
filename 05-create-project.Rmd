@@ -1,4 +1,7 @@
 # Create a project
+In this section you create a personal project in Tercen.
+
+
 
 * On the home page (once logged in) click on the **Create a project**
 ![](images/home_project.png)

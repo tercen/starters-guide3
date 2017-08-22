@@ -1,5 +1,5 @@
 # Create a workflow
-In this section you create a workflow.
+In this section you create a workflow in your project area.
 
 * Go to the _project page_
 

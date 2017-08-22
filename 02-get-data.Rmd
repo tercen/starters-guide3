@@ -1,4 +1,6 @@
 # Get the data
+In this section you get some example data. This data is used later in the guide.
+
 The data set for this guide is available online as a git hub repository. 
 
 * Go the file at the git hub address https://raw.githubusercontent.com/tercen/getting_started/master/crabs/data/crabs_longformat.csv
@@ -19,5 +21,6 @@ Factor|values
 ``index``|index 1 to 50 within each of the four groups, 2 sex and 2 species
 ``variable``|one of five variables: ``FL``, ``RW``, ``CL``, ``CW`` and ``BD``
 ``measurement``| the value of one of the five ``variable``
+``observation``| index 1 to 200 observations for each variable
 
 <center>![](images/crabs_data.png)</center>

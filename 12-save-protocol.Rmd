@@ -1,4 +1,6 @@
 # Saving your work
+In this section you save your modified workflow and data steps.
+
 In order to save your work go to the top bar and click on the icons (see red circles in figure below).
 
 ![](images/saving_bar.png)

@@ -1,6 +1,9 @@
 # Create an operator
+In this section you create an operator and add it to your project page.
 
 In the project page you can create an operator.
+
+__Note__: You require to have permissions to add operators, please send an email to info@tercen.com to ask for it.
 
 ![](images/project_create_operator.png)
 

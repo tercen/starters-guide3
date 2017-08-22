@@ -1,5 +1,7 @@
 # Run operator locally
-Here is an example for the R ``mean`` operator shown previously but this time it is executed locally from your favorite development environment. This example is a brief introduction on creating operators locally.
+In this section you run an operator you created in a previous section, but locally (i.e. on your own computer not on Tercen).
+
+Here is an example for the R ``mean`` operator used previously but this time it is executed locally from your favorite development environment. This example is a brief introduction on creating operators locally.
 
 * Go to the ``crabs workflow``
 * Right click on the "mean" data step and select **Reset**
@@ -43,10 +45,10 @@ library(plyr)
 workflowId = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 stepId = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
 ```
-* Create a Tercen client object using your actual username and password
+* Create a Tercen client object using your actual username and password and replace ``UUUUUU`` and ``PPPPPP`` using them.
 
 ```
-client = TercenClient$new(myusername, mypassword)
+client = TercenClient$new("UUUUUU"", "PPPPPP")
 ```
 
 * Get the cube query defined by your workflow

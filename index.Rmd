@@ -22,10 +22,10 @@ it uses an example data set of morphological  _measurements_ on _Leptograpsus Cr
 It is the easiest and quickest path to understanding the basics of Tercen.
 
 * __Acknowledgement__:
-I would like to thank all the users for their feedback about Tercen. It has made Tercen better.
+I would like to thank all the users for their feedback about Tercen. It has helped to improve Tercen.
 
 * __Feedback__:
-Please log your feedback of this guide by creating an entry in the [issue tracker](https://github.com/tercen/starters-guide/issues).
+If you wish to give feedback then please do not hesistate to create an entry in the [issue tracker](https://github.com/tercen/starters-guide/issues).
 
 * __Motivation__:  
 _Tercen_  promotes collaboration for data analysis. Not everyone can code or even wants to,  but everyone should benefit from the explosion of data and code currently taking place.

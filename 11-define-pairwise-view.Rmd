@@ -1,5 +1,5 @@
 # Visualize a pairwise
-In this section you create a multi-group pairwise visual.
+In this section you create a multi-group pairwise visual. A powerful visual.
 
 * Click on the first data step and select **Add step** 
 

@@ -1,4 +1,7 @@
 # Login
+In this section you login into Tercen.
+
+
 Once you have an account please go to the main login window and login.
 
 

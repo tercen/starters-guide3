@@ -1,5 +1,7 @@
 # Compute
-In this section you perform a computation.
+In this section you perform a computation by selecting an existing operator (PCA) and running it.
+
+
 The projection you created in the previous section can also be used by a computation (i.e. _operator_).
 This is due to the _What you see is what you compute_ paradigm. The following steps outlines how to add an _operator_.
 
