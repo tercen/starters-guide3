@@ -1,7 +1,7 @@
 # Run operator locally
-In this section you run an operator you created in a previous section, but locally (i.e. on your own computer not on Tercen). To run an operator locally you require to have the ability to run R scripts (e.g. using RGui or RStudio).
+In this section you run an operator you created in a previous chapter, but now locally (i.e. on your own computer not on Tercen). To run an operator locally you require to have the ability to run R scripts (e.g. using RGui or RStudio).
 
-The R ``mean`` operator is used as an example. 
+Again the R ``mean`` operator is used as an example. 
 
 * Go to the ``crabs workflow``
 * Right click on the "mean" data step and select **Reset**
