@@ -16,3 +16,6 @@ You can send this URL to another person by email or via a chat session.
 This URL is for the multi-group pairwise found in the workflow in the ``public`` project.
 
 
+<center>![](images/share.png)</center>
+
+

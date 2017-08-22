@@ -6,7 +6,7 @@ In order to save your work go to the top bar and click on the icons (see red cir
 ![](images/saving_bar.png)
 
 
-Once clicked then the icons dissappear
+Once clicked these icons dissappear
 
 ![](images/all_saved.png)
 
