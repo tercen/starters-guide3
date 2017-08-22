@@ -1,8 +1,8 @@
 # Next steps
 Here are some ideas:
 
-* Try upload different data sets and playing with making different visuals
-* Try coding for different operators using the ``rtercen`` R package
+* Try to upload different data sets and play with making different visuals
+* Try to code for different operators using the ``rtercen`` R package
 * Give feedback on this start's guide by creating an [issue](https://github.com/tercen/starters-guide/issues)
 * Give feedback on Tercen by sending an email to info@tercen.com
 * Contact us for a one-2-one session
