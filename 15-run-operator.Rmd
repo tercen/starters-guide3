@@ -51,4 +51,4 @@ The ``mean`` data step should go from blue to green.
 ![](images/mean_results.png)
 
 
-You have now completed the creation of your own operator. This operator was run on Tercen. In the next Chapter you will run the same operator locally.
+You have now completed the creation of your own operator. This operator was run on Tercen. In the next chapter you will run the same operator locally.

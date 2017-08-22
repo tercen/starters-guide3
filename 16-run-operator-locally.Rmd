@@ -85,6 +85,6 @@ The ``mean`` data step should now be green. Even though the execution has taken 
 
 ![](images/mean_results.png)
 
-You have executed a local compuation ans sent the results to Tercen for viewing.
+You have performed a local compuation and sent the results to Tercen for viewing.
 
 More documentation can be found at https://github.com/tercen/rtercen
