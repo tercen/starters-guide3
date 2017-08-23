@@ -70,9 +70,7 @@ df <- cube$sourceTable$as.data.frame()
 computed.df <- ddply(df, c(".ids"), summarize, mean = mean(.values))
 ```
 In this instance it is using the mean operator. 
-``.ids`` is a unqiue integer identifier given to each cell of the data.
-
-``.value`` are the data value(s) in each cell.
+``.ids`` is a unqiue integer identifier given to each cell of the data and``.value`` are the data value(s) in each cell.
 
 The projection in the ``mean`` step determines what are the cell and values.
 
