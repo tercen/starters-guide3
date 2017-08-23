@@ -75,7 +75,7 @@ In this instance it is a mean operator.
 ```
 query$setResult(computed.df)
 ```
-* Go to the ``crabs workflow`` and refresh the page
+* Go to the ``crabs workflow`` and refresh the web page (a quick way is to press the __F5__ key).
 
 The ``mean`` data step should now be green. Even though the execution has taken place locally on your computer.
 
