@@ -152,7 +152,11 @@ stepId = &quot;YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY&quot;</code></pre>
 <pre><code>df &lt;- cube$sourceTable$as.data.frame()</code></pre></li>
 <li><p>Execute some computation</p>
 <pre><code>computed.df &lt;- ddply(df, c(&quot;.ids&quot;), summarize, mean = mean(.values))</code></pre>
-<p>In this instance it is a mean operator.</p></li>
+<p>In this instance it is using the mean operator. <code>.ids</code> is a unqiue integer identifier given to each cell of the data.</p></li>
+</ul>
+<p><code>.value</code> are the data value(s) in each cell.</p>
+<p>The projection in the <code>mean</code> step determines what are the cell and values.</p>
+<ul>
 <li><p>Send the result to Tercen</p>
 <pre><code>query$setResult(computed.df)</code></pre></li>
 <li><p>Go to the <code>crabs workflow</code> and refresh the web page (a quick way is to press the <strong>F5</strong> key).</p></li>
