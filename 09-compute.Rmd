@@ -27,5 +27,5 @@ Rename to "PCA"
 ![](images/first_data_step_rename_pca.png)
 
 * Right click on the data step and select **Run**
-The the data step status color will now go from blue to red (i.e in progress). Wait until the status goes to green (i.e completed).
+The the data step status color will now go from blue to red (i.e. in progress). Wait until the status goes to green (i.e. completed).
 

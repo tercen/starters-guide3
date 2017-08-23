@@ -18,7 +18,7 @@ A dialog window opens which allows you to select the data file.
 ![](images/create_dataset.png)
 
   
-* Click on the **Choose File** button and select your file (i.e ``crabs_longformat.csv``).
+* Click on the **Choose File** button and select your file (i.e. ``crabs_longformat.csv``).
 
 Please make sure to select the separator, the encoding and the quote format.
 
