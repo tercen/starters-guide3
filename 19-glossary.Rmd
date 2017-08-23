@@ -14,3 +14,5 @@ __Long format__:
 
 __Wide format__:
 
+
+<center>![](images/goldfish.png)</center>
