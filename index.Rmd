@@ -2,8 +2,8 @@
 title: "Starter's guide to Tercen"
 author: "Faris Naji, Alexandre Maurel"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
 documentclass: book
+output: bookdown::gitbook
 bibliography: 
 biblio-style: apalike
 link-citations: yes
