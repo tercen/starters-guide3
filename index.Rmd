@@ -13,13 +13,12 @@ description: "This is a starter's guide to Tercen"
 
 # Introduction
 
-This step-by-step guide outlines how to upload, view, compute and share data using Tercen.
-it uses an example data set of morphological  _measurements_ on _Leptograpsus Crabs_ collected at Fremantle, W. Australia.
-
+This step-by-step guide outlines how to upload, view, compute and share data using __Tercen__. It uses an example data set of morphological  _measurements_ on _Leptograpsus Crabs_ collected at Fremantle, W. Australia.
+ 
 <center>![](images/tercen-guide.png)</center>
 
 * __Why read this guide?__ :
-It is the easiest and quickest path to understanding the basics of Tercen.
+It is the easiest and quickest path to understanding the basics of Tercen. 
 
 * __Acknowledgement__:
 I would like to thank all the users for their feedback about Tercen. It has helped us improve Tercen.
